@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Bar Cocktails</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffefd5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        h1 {
+            color: #E44C65;
+            margin: 20px 0;
+            animation: fadeIn 1s ease-in-out;
+            font-size: 2em;
+        }
+        .cocktail {
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            padding: 20px;
+            width: 90%;
+            max-width: 400px;
+            animation: fadeInUp 1s ease-in-out;
+            border: 2px solid #E44C65;
+        }
+        .cocktail img {
+            width: 100%;
+            border-radius: 15px;
+        }
+        .cocktail h2 {
+            color: #333;
+            margin: 10px 0;
+        }
+        .cocktail .price {
+            font-weight: bold;
+            color: #E44C65;
+            margin: 5px 0;
+        }
+        .cocktail ul {
+            color: #555;
+            padding-left: 20px;
+        }
+        .cocktail ul li {
+            margin-bottom: 5px;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes fadeInUp {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Café Bar Cocktails</h1>
+    <div class="cocktail">
+        <img src="images/blue_lagoon.jpg" alt="Blue Lagoon">
+        <h2>Blue Lagoon</h2>
+        <p class="price">€8.00</p>
+        <ul>
+            <li>Smirnoff - 4cl</li>
+            <li>Limeta - 1cl</li>
+            <li>Blue Curacao - 2cl</li>
+            <li>Sprite - 15cl</li>
+        </ul>
+    </div>
+    <div class="cocktail">
+        <img src="images/cuba_libre.jpg" alt="Cuba Libre">
+        <h2>Cuba Libre</h2>
+        <p class="price">€7.50</p>
+        <ul>
+            <li>Bacardi - 5cl</li>
+            <li>Limeta</li>
+            <li>Cola - 15cl</li>
+        </ul>
+    </div>
+    <div class="cocktail">
+        <img src="images/mojito.jpg" alt="Mojito">
+        <h2>Mojito</h2>
+        <p class="price">€8.50</p>
+        <ul>
+            <li>Bacardi - 5cl</li>
+            <li>Limeta</li>
+            <li>Menta</li>
+            <li>Smedi secer</li>
+            <li>Mineralna</li>
+            <li>Sprite</li>
+        </ul>
+    </div>
+    <div class="cocktail">
+        <img src="images/aperol_spritz.jpg" alt="Aperol Spritz">
+        <h2>Aperol Spritz</h2>
+        <p class="price">€9.00</p>
+        <ul>
+            <li>Aperol - 5cl</li>
+            <li>Proseco - 8cl</li>
+            <li>Mineralna - 5cl</li>
+        </ul>
+    </div>
+    <div class="cocktail">
+        <img src="images/tom_collins_amadeus.jpg" alt="Tom Collins Amadeus">
+        <h2>Tom Collins Amadeus</h2>
+        <p class="price">€9.50</p>
+        <ul>
+            <li>Gin - 5cl</li>
+            <li>Fresh lemon juice</li>
+            <li>Grenadine - 15cl</li>
+            <li>Sprite - 2cl</li>
+        </ul>
+    </div>
+    <div class="cocktail">
+        <img src="images/ninno.jpg" alt="Ninno">
+        <h2>Ninno</h2>
+        <p class="price">€10.00</p>
+        <ul>
+            <li>Teranino - 2.5cl</li>
+            <li>Gin - 2.5cl</li>
+            <li>Sok od narance</li>
+            <li>Tonic</li>
+        </ul>
+    </div>
+    <div class="cocktail">
+        <img src="images/moscow_mule.jpg" alt="Moscow Mule">
+        <h2>Moscow Mule</h2>
+        <p class="price">€9.00</p>
+        <ul>
+            <li>Smirnoff - 5cl</li>
+            <li>Limeta</li>
+            <li>Ginger beer - 8cl</li>
+            <li>Menta</li>
+        </ul>
+    </div>
+    <div class="cocktail">
+        <img src="images/hugo_spritz.jpg" alt="Hugo Spritz">
+        <h2>Hugo Spritz</h2>
+        <p class="price">€9.00</p>
+        <ul>
+            <li>Proseco - 6cl</li>
+            <li>Elderflower - 3cl</li>
+            <li>Mineralna</li>
+            <li>Menta</li>
+            <li>Limeta</li>
+        </ul>
+    </div>
+</body>
+</html>
